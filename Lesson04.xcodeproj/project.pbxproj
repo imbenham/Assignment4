@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36E688F71ADAA91D00EFA904 /* NotificationAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E688F61ADAA91D00EFA904 /* NotificationAbstraction.swift */; };
 		5DCED9BB19D8E50600DE1DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED9BA19D8E50600DE1DC2 /* AppDelegate.swift */; };
 		5DCED9BD19D8E50600DE1DC2 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED9BC19D8E50600DE1DC2 /* ArrayViewController.swift */; };
 		5DCED9C019D8E50600DE1DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCED9BE19D8E50600DE1DC2 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36E688F61ADAA91D00EFA904 /* NotificationAbstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationAbstraction.swift; sourceTree = "<group>"; };
 		5DCED9B519D8E50600DE1DC2 /* Lesson04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCED9B919D8E50600DE1DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DCED9BA19D8E50600DE1DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				5DCED9BA19D8E50600DE1DC2 /* AppDelegate.swift */,
 				5DCED9DA19D8E6DF00DE1DC2 /* MapViewController.swift */,
 				5DCED9BC19D8E50600DE1DC2 /* ArrayViewController.swift */,
+				36E688F61ADAA91D00EFA904 /* NotificationAbstraction.swift */,
 				5DCED9BE19D8E50600DE1DC2 /* Main.storyboard */,
 				5DCED9C119D8E50600DE1DC2 /* Images.xcassets */,
 				5DCED9B819D8E50600DE1DC2 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DCED9BD19D8E50600DE1DC2 /* ArrayViewController.swift in Sources */,
+				36E688F71ADAA91D00EFA904 /* NotificationAbstraction.swift in Sources */,
 				5DCED9DB19D8E6DF00DE1DC2 /* MapViewController.swift in Sources */,
 				5DCED9BB19D8E50600DE1DC2 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +401,7 @@
 				5DCED9D619D8E50600DE1DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCED9D719D8E50600DE1DC2 /* Build configuration list for PBXNativeTarget "Lesson04Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				5DCED9D919D8E50600DE1DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
